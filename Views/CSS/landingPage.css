@@ -1,0 +1,264 @@
+/* Resetting defaults */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+}
+
+.text-white {
+    color: white;
+}
+
+/* Background image */
+.container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../Resources/Backgrounds/3.jpg');
+    background-size: cover;
+    z-index: -1;
+    opacity: 1.0;
+}
+
+/* Landing page container */
+.container {
+    padding: 20px 0px 20px 20px;
+}
+
+/* Navbar */
+/* Logo */
+#logo {
+    width: 80px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.logo-div {
+    margin-left: 20px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* nav items */
+.nav-items {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    padding: 5px 15px;
+    border-radius: 15px;
+    font-weight: 600;
+}
+
+a:hover {
+    border: 1px solid white;
+}
+
+.cdn-buttons {
+    margin-right: 20px;
+
+}
+
+.motto-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 25vh;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 50vh
+}
+
+
+/* Destination-section Styling */
+#destination-section {
+    position: relative;
+    top: 90px;
+    margin: 60px;
+}
+
+.trip-view {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan-text {
+    display: flex;
+    flex-direction: column;
+}
+
+#destination-section h2,
+p,
+h3 {
+    color: black;
+}
+
+.location-display img {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.location-display {
+    width: 30%;
+    height: auto;
+}
+
+.destination-images {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.margin-top {
+    margin-top: 30px;
+}
+
+.margin-bottom {
+    margin-bottom: 30px;
+}
+
+.margin-right {
+    margin-right: 30px;
+}
+
+.margin-left {
+    margin-left: 30px;
+}
+
+
+/* Searches Styling */
+.searches-div {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.search-div {
+    padding: 4px 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.search-country h4,
+p {
+    color: black;
+    margin: 3px 10px;
+}
+
+.search-div i {
+    color: black;
+    font-size: larger;
+    font-weight: 700;
+    height: auto;
+    width: auto;
+}
+
+
+
+/* Buttons Styling */
+#btnLogin {
+    margin-left: 14px;
+}
+
+.btn-arrow {
+    width: max-content;
+    background-color: lightgray;
+    border: none;
+    /* border: 2px solid blue; */
+    color: blue;
+    padding: 15px 17px;
+    border-radius: 50%;
+    font-weight: bold;
+
+}
+
+.btn {
+    width: max-content;
+    background-color: white;
+    border: 2px solid blue;
+    color: blue;
+    padding: 5px 20px 5px 20px;
+    border-radius: 20px;
+    font-size: large;
+}
+
+.btn2 {
+    width: max-content;
+    color: #fff;
+    font-size: large;
+    padding: 5px 20px 5px 20px;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    background-color: transparent;
+}
+
+.btn3 {
+    width: max-content;
+    background-color: white;
+    color: blue;
+    padding: 5px 20px 5px 20px;
+    border-radius: 20px;
+    font-size: large;
+}
+
+.btn-arrow:hover {
+    background-color: blue;
+    color: white;
+}
+
+.btn:hover {
+    background-color: blue;
+    color: white;
+}
+
+.btn2:hover {
+    background-color: cornflowerblue;
+}
+
+.btn3:hover {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+footer {
+    margin-top: 300px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: blue;
+}
+
+footer p {
+    color: #fff;
+}
